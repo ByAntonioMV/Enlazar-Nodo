@@ -52,8 +52,7 @@ void recorrer2(struct nodo* p)
 
 int main()
 {   int num;
-
-    printf("\n\nCrear la Lista\n");
+printf("\n\nCrear la Lista\n");
     printf("\nroot -> INFO = ");
     scanf("%d", &num);
 
@@ -62,6 +61,7 @@ int main()
     crearListaFinal(p1);
 
     printf("\n\n<< Se termino de crear la lista >>\n\n");
+    
 
     printf("\n\nRecorrido\n");
     recorrer(p1);
